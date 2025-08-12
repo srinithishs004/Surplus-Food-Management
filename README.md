@@ -117,7 +117,7 @@ Surplus Food Management System/
    ./gradlew bootRun
    ```
 
-4. The backend API will be available at `http://localhost:8080`
+4. The backend API will be available at `http://localhost:8090`
 
 ### Database Setup
 - Ensure Microsoft SQL Server is running
@@ -140,8 +140,8 @@ Surplus Food Management System/
 ## 🌐 API Documentation
 
 Once the backend is running, you can access the API documentation at:
-- Swagger UI: `http://localhost:8080/swagger-ui.html`
-- OpenAPI Spec: `http://localhost:8080/v3/api-docs`
+- Swagger UI: `http://localhost:8090/swagger-ui.html`
+- OpenAPI Spec: `http://localhost:8090/v3/api-docs`
 
 ## 🔧 Configuration
 
@@ -150,16 +150,18 @@ Create appropriate configuration files for different environments:
 
 **Frontend** (`.env`):
 ```
-VITE_API_BASE_URL=http://localhost:8080
+VITE_API_BASE_URL=http://localhost:8090
 VITE_GOOGLE_MAPS_API_KEY=your_google_maps_api_key
 ```
 
 **Backend** (`application.properties`):
 ```properties
-spring.datasource.url=jdbc:sqlserver://localhost:1433;databaseName=surplusfood
+spring.datasource.url=jdbc:sqlserver://crsvcsqltrn02.chec.local;instanceName=CORP_TRN;databaseName=Training
 spring.datasource.username=your_username
 spring.datasource.password=your_password
 spring.jpa.hibernate.ddl-auto=update
+spring.jpa.database-platform=org.hibernate.dialect.SQLServer2012Dialect
+server.port=8090
 ```
 
 ## 🤝 Contributing
@@ -180,6 +182,7 @@ Developed by Team 2 as part of a community service initiative to address food wa
 
 ## 🙏 Acknowledgments
 
+- **Special gratitude to Sri Nithish S** (srinithishs004@gmail.com) for his invaluable guidance, inspiration, and contributions that made this humanitarian project possible
 - Thanks to all volunteers and donors who make this platform meaningful
 - Bootstrap team for the excellent UI framework
 - Spring Boot community for the robust backend framework
@@ -187,7 +190,9 @@ Developed by Team 2 as part of a community service initiative to address food wa
 
 ## 📞 Support
 
-For support, please contact the development team or create an issue in the repository.
+For support, please contact:
+- **Sri Nithish S**: srinithishs004@gmail.com (Project Lead)
+- Create an issue in the repository for bug reports and feature requests
 
 ---
 
