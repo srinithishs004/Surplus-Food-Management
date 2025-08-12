@@ -1,0 +1,15 @@
+/* DonorDashboard.css */
+
+.carousel-image {
+    width: 1500px;
+    height: 600px;
+    object-fit: cover;
+  }
+  
+  .fixed-button {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  

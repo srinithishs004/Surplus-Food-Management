@@ -1,0 +1,70 @@
+.success-animation {
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .checkmark {
+    width: 100px;
+    height: 100px;
+    animation: checkmark 0.25s ease-in-out 0.7s both;
+  }
+  
+  .checkmark__circle {
+    stroke: #4caf50;
+    stroke-width: 5;
+    stroke-dasharray: 166;
+    stroke-dashoffset: 166;
+    animation: checkmark-circle 0.6s ease-in-out forwards;
+  }
+  
+  .checkmark__check {
+    transform-origin: 50% 50%;
+    stroke: #4caf50;
+    stroke-width: 5;
+    stroke-dasharray: 48;
+    stroke-dashoffset: 48;
+    animation: checkmark-check 0.3s ease-in-out 0.7s forwards;
+  }
+  
+  @keyframes checkmark {
+    0% {
+      width: 0;
+      height: 0;
+      opacity: 0;
+    }
+    20% {
+      width: 100px;
+      height: 100px;
+      opacity: 1;
+    }
+    40% {
+      width: 100px;
+      height: 100px;
+      opacity: 1;
+    }
+    100% {
+      width: 100px;
+      height: 100px;
+      opacity: 1;
+    }
+  }
+  
+  @keyframes checkmark-circle {
+    0% {
+      stroke-dashoffset: 166;
+    }
+    100% {
+      stroke-dashoffset: 0;
+    }
+  }
+  
+  @keyframes checkmark-check {
+    0% {
+      stroke-dashoffset: 48;
+    }
+    100% {
+      stroke-dashoffset: 0;
+    }
+  }
+  

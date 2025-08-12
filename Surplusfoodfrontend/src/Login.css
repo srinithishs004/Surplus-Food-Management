@@ -1,0 +1,26 @@
+/* src/components/Login.css */
+
+.login-header img {
+    width: 150px; /* Adjust as needed */
+  }
+  
+  .login-header h2 {
+    font-size: 1.5rem;
+  }
+  
+  .text-muted a {
+    color: #007bff;
+    margin-left: 70%;
+  }
+  
+  button[type="submit"] {
+    background-color: #005580;
+    border: none;
+    width: 100%;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #004060;
+  }
+
+  

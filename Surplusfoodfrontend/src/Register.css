@@ -1,0 +1,23 @@
+/* src/components/Register.css */
+
+.register-header {
+    margin-bottom: 20px;
+  }
+  
+  .register-header h2 {
+    font-size: 1.5rem;
+  }
+  
+  .text-muted a {
+    color: #007bff;
+  }
+  
+  button[type="submit"] {
+    background-color: #005580;
+    border: none;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #004060;
+  }
+  

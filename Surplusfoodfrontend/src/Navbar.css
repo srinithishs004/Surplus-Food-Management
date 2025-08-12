@@ -1,0 +1,29 @@
+/* src/Navbar.css */
+.navbar-custom {
+    /* background-color: #343a40;  */
+    width: 100%;
+    display: flex;
+    font-family:  sans-serif;
+    overflow:hidden;
+    z-index: 1;
+    background-color: white;
+  }
+  .one{
+    margin-left: 63vw;
+  }
+  .newone{
+    margin-left: 2vw;
+  }
+  .nav-link-custom {
+    padding: 10px 15px;
+    font-size: 1.1rem;
+  }
+  
+  /* @media (max-width: 768px) {
+    .navbar-custom {
+      /* background-color: #495057; */
+ /* Slightly different color on smaller screens */
+    /* } */
+ 
+  /* } */
+  

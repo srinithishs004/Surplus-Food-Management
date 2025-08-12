@@ -1,0 +1,52 @@
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+  } */
+/*    
+  h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  } */
+   
+  .food-card11 {
+    width: 100%;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+   
+  .card-title11 {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+   
+  .card-text11 {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+   
+  .card-body11 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+   
+  .food-details11 {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1; 
+    margin-right: 20px; 
+  }
+   
+  .food-details11 span {
+    display: flex;
+    align-items: center;
+    flex-basis: 33%; 
+    text-align: left; 
+  }
+   
+  .food-details11 span .icon11 {
+    margin-right: 10px;
+  }
+   

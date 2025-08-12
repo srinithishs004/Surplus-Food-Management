@@ -1,0 +1,33 @@
+.sidebar {
+  margin-top: 58px;
+  padding: 0;
+  width: 250px;
+  background-color: #f0f0f0;
+  border-right: 2px;
+  position: fixed;
+  height: 100vh;
+  overflow: auto;
+  box-shadow: #555;
+}
+
+/* Sidebar links */
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  font-size: large;
+  font-weight: 600;
+}
+
+/* Active/current link */
+.sidebar a.active {
+  background-color: #42d2f7;
+  color: white;
+}
+
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
