@@ -178,11 +178,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 Team
 
-Developed by Team 2 as part of a community service initiative to address food waste and hunger.
+Developed by My Team as part of a community service initiative to address food waste and hunger.
 
 ## 🙏 Acknowledgments
 
 - **Special gratitude to Sri Nithish S** (srinithishs004@gmail.com) for his invaluable guidance, inspiration, and contributions that made this humanitarian project possible
+- **Special Mentions to the team members Mohana, Lakshmi, Muthulakshmi, Parameshwari
 - Thanks to all volunteers and donors who make this platform meaningful
 - Bootstrap team for the excellent UI framework
 - Spring Boot community for the robust backend framework
